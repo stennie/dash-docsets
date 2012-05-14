@@ -65,6 +65,9 @@ if [[ $DOCSET == 1 ]]; then
 	sleep $SLEEP
 	cd docset/html
 	make
+	sleep $SLEEP
+	echo " ==> Creating tarball"
+	tar --exclude='.DS_Store' -cvzf docset/Yii.tgz docset/html/com.yiiframework.com.docset
 fi
 
 if [[ $OTHER == 1 ]]; then
