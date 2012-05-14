@@ -1,0 +1,28 @@
+Index: yii-1.1.10.r3566/framework/YiiBase.php
+===================================================================
+--- yii-1.1.10.r3566/framework/YiiBase.php	(revision 88)
++++ yii-1.1.10.r3566/framework/YiiBase.php	(working copy)
+@@ -11,6 +11,23 @@
+  * @since 1.0
+  */
+ 
++/*! @mainpage Yii Framework
++ *
++ * Yii is a free, open-source Web application development framework written in PHP5 
++ * that promotes clean, DRY design and encourages rapid development. It works to
++ * streamline your application development and helps to ensure an extremely efficient,
++ * extensible, and maintainable end product. It comes with rich features including
++ * MVC, DAO/ActiveRecord, I18N/L10N, caching, authentication and role-based access
++ * control, scaffolding, testing, and more.
++ *
++ * Yii is pronounced as Yee or [ji:], and is an acroynym for "Yes It Is!". This is
++ * often the accurate, and most concise response to inquires from those new to Yii: 
++ * Is it fast? ... Is it secure? ... Is it professional? ... Is it right for my next 
++ * project? ... Yes, it is!
++ *
++ * To learn more about Yii, see http://www.yiiframework.com/
++ */
++
+ /**
+  * Gets the application start timestamp.
+  */
